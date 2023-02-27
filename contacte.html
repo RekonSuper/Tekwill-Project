@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Conatct Us Page</title>
+    <link rel="stylesheet" href="style.css">
+    <div id="loading-screen">
+        <svg class="pl" width="240" height="240" viewBox="0 0 240 240">
+            <circle class="pl__ring pl__ring--a" cx="120" cy="120" r="105" fill="none" stroke="#000" stroke-width="20"
+                stroke-dasharray="0 660" stroke-dashoffset="-330" stroke-linecap="round"></circle>
+            <circle class="pl__ring pl__ring--b" cx="120" cy="120" r="35" fill="none" stroke="#000" stroke-width="20"
+                stroke-dasharray="0 220" stroke-dashoffset="-110" stroke-linecap="round"></circle>
+            <circle class="pl__ring pl__ring--c" cx="85" cy="120" r="70" fill="none" stroke="#000" stroke-width="20"
+                stroke-dasharray="0 440" stroke-linecap="round"></circle>
+            <circle class="pl__ring pl__ring--d" cx="155" cy="120" r="70" fill="none" stroke="#000" stroke-width="20"
+                stroke-dasharray="0 440" stroke-linecap="round"></circle>
+        </svg>
+    </div>
+</head>
+
+<body class="contacte">
+    <nav>
+        <div class="logo">
+            <img src="./images/logo.png" alt="Logo">
+            <h1><a href="./index.html">Liceul Teoretic <span class="bold">„<span class="letter">M</span>eșterul <span
+                            class="letter">M</span>anole”</span></a></h1>
+        </div>
+        <ul>
+            <li><a href="./aboutus.html">DESPRE NOI</a></li>
+            <li><a href="./contacte.html">CONTACTE</a></li>
+        </ul>
+    </nav>
+    <div class="contactUs">
+        <div class="title">
+            <h2> Contactează-ne</h2>
+        </div>
+        <div class="box">
+            <!--Form-->>
+            <div class="contact form">
+                <h3>Expediază un mesaj</h3>
+                <form>
+                    <div class="formBox">
+                        <div class="row50">
+                            <div class="inputBox">
+                                <span>Numele</span>
+                                <input type="text" placeholder="Cojocaru">
+                            </div>
+                            <div class="inputBox">
+                                <span>Prenumele</span>
+                                <input type="text" placeholder="Mihai">
+                            </div>
+                        </div>
+
+                        <div class="row50">
+                            <div class="inputBox">
+                                <span>Email</span>
+                                <input type="text" placeholder="mihaicojocaru@gmail.com">
+                            </div>
+                            <div class="inputBox">
+                                <span>Telefon</span>
+                                <input type="text" placeholder="+373 12345678">
+                            </div>
+                        </div>
+                        <div class="row100">
+                            <div class="inputBox">
+                                <span>Mesaj</span>
+                                <textarea placeholder=""></textarea>
+                            </div>
+                        </div>
+                        <div class="row100">
+                            <div class="inputBox">
+                                <input type="submit" value="Expediază">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <!--infoBox-->>
+            <div class="contact info">
+                <h3>Date de contact</h3>
+                <div class="infoBox">
+                    <div>
+                        <span><ion-icon name="location"></ion-icon></span>
+                        <p>s.Sălcuța, r.Căușeni <br>REPUBLICA MOLDOVA</p>
+                    </div>
+                    <div>
+                        <span><ion-icon name="mail"></ion-icon></span>
+                        <a href="mailto:liceulmmanole@gmail.com">liceulmmanole@gmail.com</a>
+                    </div>
+                    <div>
+                        <span><ion-icon name="call"></ion-icon></span>
+                        <a href="tel:+0243 41 247">+ 0243 41 247</a>
+                    </div>
+                    <!--Social Media Links-->
+                    <ul class="sci">
+                        <li><a href="https://www.facebook.com/LiceulMesterulManole"><ion-icon
+                                    name="logo-facebook"></ion-icon></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!--Map-->>
+            <div class="contact map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2741.4165052381463!2d29.245712715719055!3d46.5987712791307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c9b182903d1a39%3A0xcd91eab1e04d1a3a!2sLiceul%20Teoretic%20%22Me%C8%99terul%20Manole%22!5e0!3m2!1sro!2s!4v1677431878323!5m2!1sro!2s"
+                    width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
